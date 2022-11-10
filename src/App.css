@@ -1,0 +1,247 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: url(img.jpg);
+  background-size: cover;
+}
+
+/*login form css*/
+.form{
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  opacity: 99%;
+  max-width: 500px;
+  margin: 200px auto 100px;
+  padding: 10px 45px  45px 30px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+.form p{
+  font-size: 15px;
+  padding: 1px;
+  text-align: center;
+}
+.form input{
+  outline: 0;
+  border-radius: 10px;
+  background: #F2F2F2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form input:hover{
+  background-color: #D3F8F9;
+  transition: all 1s ease 0s;
+}
+.form input:focus{
+  background-color: #D3F8F9;
+  transition: all 1s ease 0s;
+}
+.form button{
+  text-transform: uppercase;
+  outline: 0;
+  border-radius: 10px;
+  background: #1ADBE5;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form button:hover, .form button:active, .form button:focus{
+  background-color: #06C5CF;
+  transition: all 1s ease 0s;
+}
+.form .message{
+  margin: 15px 0 0 15px;
+  color: #B3B3B3;
+  font-size: 15px;
+}
+.form .message a{
+  color: #06C5CF;
+  text-decoration: none;
+}
+.tableForm {
+margin: 200px 300px 200px 350px;
+font-family: 'Roboto', sans-serif;
+padding: 0 0 45px 0;
+position: relative;
+z-index: 1;
+max-width: "200px";
+opacity: "99%";
+background-color: #FFFFFF;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);;
+box-sizing: border-box;
+border-radius: 10px;
+text-align: center;
+}
+.tableForm select{
+  padding: 8px 10px 8px 10px;
+  margin: 20px 17px 20px 210px;
+  position: relative;
+  background-color: #F2F2F2;
+  border-radius: 11px;
+  max-width: 100%;
+}
+.tableForm p{
+  text-align: center;
+  margin-right: 40px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 1px;
+}
+.tableForm button{
+  border-radius: 10px;
+  position: relative;
+  margin-left: -26px;
+  width: 100%;
+}
+.tableForm select:focus{
+  background-color: #D3F8F9;
+}
+.tableForm button{
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.register{
+  font-size: 12px;
+  margin: 15px 0 0;
+  color: #B3B3B3;
+  /* word-wrap: ; */
+}
+.create{
+  font-size: 12px;
+  margin: 15px 0 0;
+  color: #1ADBE5;
+}
+.Tabs{
+  position: relative;
+  margin: 15px 0 0 15px;
+}
+.thead{
+  background-color: #04AA6D;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: large;
+  height: 30%;
+}
+.thead th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid #ddd;
+}
+.table{
+  border: 1px solid #ddd;
+}
+.tbody tr:nth-child(even){
+  background-color: #F2F2F2;
+}
+.tbody tr:hover{
+  background-color: #ddd;
+} 
+.tbody th,.tbody td{
+  border: 1px solid #ddd;
+}
+.text-error{
+  color:brown;
+  font-size:12px
+}
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+}
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+}
+
+.tag-brown {
+  background: #D1913C;
+background: linear-gradient(to bottom, #FFD194, #D1913C);
+  color: #fafafa;
+}
+
+.tag-red {
+  background: #cb2d3e;
+background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.card__footer {
+  display: flex;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.user {
+  display: flex;
+  gap: .5rem;
+}
+
+.user__image {
+  border-radius: 50%;
+}
+
+.user__info > small {
+  color: #666;
+}
+.example{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: darkseagreen;
+  /* margin-bottom: ; */
+}
